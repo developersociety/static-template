@@ -6,8 +6,8 @@ from fabric.contrib.files import exists
 # Changable settings
 env.roledefs = {
     'web': [
-        'staticsites@cornwall.blanctools.com',
-        'staticsites@devon.blanctools.com',
+        'staticsites@cornwall.devsoc.org',
+        'staticsites@devon.devsoc.org',
     ],
 }
 
@@ -16,7 +16,7 @@ env.repo = env.get('repo', '{{ cookiecutter.project_slug }}')
 
 # Avoid tweaking these
 env.use_ssh_config = True
-GIT_REMOTE = 'git@github.com:blancltd/{env.repo}.git'
+GIT_REMOTE = 'git@github.com:developersociety/{env.repo}.git'
 
 
 @task

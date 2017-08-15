@@ -1,6 +1,6 @@
-=====================
-Blanc Static Template
-=====================
+=====================================
+The Developer Society Static Template
+=====================================
 
 Installation
 ------------
@@ -17,4 +17,4 @@ Create a site using this template:
 
 .. code-block:: console
 
-    $ cookiecutter gh:blancltd/static-template
+    $ cookiecutter gh:developersociety/static-template
