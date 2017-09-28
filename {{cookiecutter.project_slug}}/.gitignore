@@ -1,1 +1,4 @@
 *.pyc
+/node_modules
+/static/css
+htdocs/static/css/

@@ -42,3 +42,6 @@ def deploy(branch=None):
             run('git checkout {}'.format(branch))
 
         run('git pull --quiet')
+
+        run('npm install --no-progress')
+        run('npm run production')
