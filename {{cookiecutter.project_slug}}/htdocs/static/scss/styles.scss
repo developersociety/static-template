@@ -1,17 +1,6 @@
 @import 'normalize/import-now';
-
 @import 'variables';
+@import 'base';
 @import 'typography';
 @import 'accessibility';
-
-* {
-    box-sizing: border-box;
-}
-
-:first-child {
-    margin-top: 0;
-}
-
-:last-child {
-    margin-bottom: 0;
-}
+@import 'utilities';
